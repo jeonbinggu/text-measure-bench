@@ -1,0 +1,1801 @@
+{
+  "font": "500 16px Pretendard",
+  "lineHeight": 24,
+  "env": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/159.0.0.0 Safari/537.36",
+    "browser": "Chromium 159, Not/A)Brand 8",
+    "platform": "Windows",
+    "devicePixelRatio": 1.0000000149011612,
+    "hardwareConcurrency": 8,
+    "screen": "1500x900",
+    "crossOriginIsolated": true,
+    "fontFile": "PretendardVariable.woff2",
+    "timestamp": "2026-11-14T13:40:20.179Z"
+  },
+  "fallbackGraphemes": {
+    "ko-long": [],
+    "en-long": [],
+    "mixed": [],
+    "emoji": [],
+    "long-url": [],
+    "punct": [],
+    "fallback": [
+      "漢",
+      "字",
+      "文",
+      "章",
+      "特",
+      "殊",
+      "∮",
+      "ℵ",
+      "☃",
+      "測",
+      "定",
+      "確",
+      "認"
+    ]
+  },
+  "rows": [
+    {
+      "case": "ko-long",
+      "width": 200,
+      "mode": "normal",
+      "dom": {
+        "height": 216,
+        "lineCount": 9,
+        "lines": [
+          "측정값은한번재고끝나는숫자가",
+          "아니라같은조건에서여러번다시",
+          "재었을때비슷하게나와야쓸모가",
+          "있다. 그래서이실험은화면에보",
+          "이는글자의높이를세가지방법으",
+          "로재고그차이를그대로기록한다.",
+          "차이가나지않으면좋은일이고차",
+          "이가나면어디서부터달라졌는지",
+          "를적어두면된다."
+        ]
+      },
+      "canvas": {
+        "height": 216,
+        "lineCount": 9,
+        "lines": [
+          "측정값은한번재고끝나는숫자가",
+          "아니라같은조건에서여러번다시",
+          "재었을때비슷하게나와야쓸모가",
+          "있다. 그래서이실험은화면에보",
+          "이는글자의높이를세가지방법으",
+          "로재고그차이를그대로기록한다.",
+          "차이가나지않으면좋은일이고차",
+          "이가나면어디서부터달라졌는지",
+          "를적어두면된다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 216,
+        "lineCount": 9,
+        "lines": [
+          "측정값은한번재고끝나는숫자가",
+          "아니라같은조건에서여러번다시",
+          "재었을때비슷하게나와야쓸모가",
+          "있다. 그래서이실험은화면에보",
+          "이는글자의높이를세가지방법으",
+          "로재고그차이를그대로기록한다.",
+          "차이가나지않으면좋은일이고차",
+          "이가나면어디서부터달라졌는지",
+          "를적어두면된다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "ko-long",
+      "width": 200,
+      "mode": "keep-all",
+      "dom": {
+        "height": 240,
+        "lineCount": 10,
+        "lines": [
+          "측정값은한번재고끝나는숫자가",
+          "아니라같은조건에서여러번다시",
+          "재었을때비슷하게나와야쓸모가",
+          "있다.",
+          "그래서이실험은화면에보이는글",
+          "자의높이를세가지방법으로재고",
+          "그차이를그대로기록한다.",
+          "차이가나지않으면좋은일이고차",
+          "이가나면어디서부터달라졌는지",
+          "를적어두면된다."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 240,
+        "lineCount": 10,
+        "lines": [
+          "측정값은한번재고끝나는숫자가",
+          "아니라같은조건에서여러번다시",
+          "재었을때비슷하게나와야쓸모가",
+          "있다.",
+          "그래서이실험은화면에보이는글",
+          "자의높이를세가지방법으로재고",
+          "그차이를그대로기록한다.",
+          "차이가나지않으면좋은일이고차",
+          "이가나면어디서부터달라졌는지",
+          "를적어두면된다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "ko-long",
+      "width": 320,
+      "mode": "normal",
+      "dom": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "측정값은한번재고끝나는숫자가아니라같은조건에서",
+          "여러번다시재었을때비슷하게나와야쓸모가있다. 그",
+          "래서이실험은화면에보이는글자의높이를세가지방법",
+          "으로재고그차이를그대로기록한다. 차이가나지않으",
+          "면좋은일이고차이가나면어디서부터달라졌는지를적",
+          "어두면된다."
+        ]
+      },
+      "canvas": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "측정값은한번재고끝나는숫자가아니라같은조건에서",
+          "여러번다시재었을때비슷하게나와야쓸모가있다. 그",
+          "래서이실험은화면에보이는글자의높이를세가지방법",
+          "으로재고그차이를그대로기록한다. 차이가나지않으",
+          "면좋은일이고차이가나면어디서부터달라졌는지를적",
+          "어두면된다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "측정값은한번재고끝나는숫자가아니라같은조건에서",
+          "여러번다시재었을때비슷하게나와야쓸모가있다. 그",
+          "래서이실험은화면에보이는글자의높이를세가지방법",
+          "으로재고그차이를그대로기록한다. 차이가나지않으",
+          "면좋은일이고차이가나면어디서부터달라졌는지를적",
+          "어두면된다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "ko-long",
+      "width": 320,
+      "mode": "keep-all",
+      "dom": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "측정값은한번재고끝나는숫자가아니라같은조건에서",
+          "여러번다시재었을때비슷하게나와야쓸모가있다.",
+          "그래서이실험은화면에보이는글자의높이를세가지방",
+          "법으로재고그차이를그대로기록한다.",
+          "차이가나지않으면좋은일이고차이가나면어디서부터",
+          "달라졌는지를적어두면된다."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "측정값은한번재고끝나는숫자가아니라같은조건에서",
+          "여러번다시재었을때비슷하게나와야쓸모가있다.",
+          "그래서이실험은화면에보이는글자의높이를세가지방",
+          "법으로재고그차이를그대로기록한다.",
+          "차이가나지않으면좋은일이고차이가나면어디서부터",
+          "달라졌는지를적어두면된다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "ko-long",
+      "width": 480,
+      "mode": "normal",
+      "dom": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "측정값은한번재고끝나는숫자가아니라같은조건에서여러번다시재었을때비슷",
+          "하게나와야쓸모가있다. 그래서이실험은화면에보이는글자의높이를세가지방법",
+          "으로재고그차이를그대로기록한다. 차이가나지않으면좋은일이고차이가나면어",
+          "디서부터달라졌는지를적어두면된다."
+        ]
+      },
+      "canvas": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "측정값은한번재고끝나는숫자가아니라같은조건에서여러번다시재었을때비슷",
+          "하게나와야쓸모가있다. 그래서이실험은화면에보이는글자의높이를세가지방법",
+          "으로재고그차이를그대로기록한다. 차이가나지않으면좋은일이고차이가나면어",
+          "디서부터달라졌는지를적어두면된다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "측정값은한번재고끝나는숫자가아니라같은조건에서여러번다시재었을때비슷",
+          "하게나와야쓸모가있다. 그래서이실험은화면에보이는글자의높이를세가지방법",
+          "으로재고그차이를그대로기록한다. 차이가나지않으면좋은일이고차이가나면어",
+          "디서부터달라졌는지를적어두면된다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "ko-long",
+      "width": 480,
+      "mode": "keep-all",
+      "dom": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "측정값은한번재고끝나는숫자가아니라같은조건에서여러번다시재었을때비슷",
+          "하게나와야쓸모가있다.",
+          "그래서이실험은화면에보이는글자의높이를세가지방법으로재고그차이를그대",
+          "로기록한다.",
+          "차이가나지않으면좋은일이고차이가나면어디서부터달라졌는지를적어두면된",
+          "다."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "측정값은한번재고끝나는숫자가아니라같은조건에서여러번다시재었을때비슷",
+          "하게나와야쓸모가있다.",
+          "그래서이실험은화면에보이는글자의높이를세가지방법으로재고그차이를그대",
+          "로기록한다.",
+          "차이가나지않으면좋은일이고차이가나면어디서부터달라졌는지를적어두면된",
+          "다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "en-long",
+      "width": 200,
+      "mode": "normal",
+      "dom": {
+        "height": 288,
+        "lineCount": 12,
+        "lines": [
+          "A measurement is only",
+          "useful when someone else",
+          "can repeat it and land close",
+          "to the same number. This",
+          "page lays out one",
+          "paragraph three different",
+          "ways, records how tall",
+          "each one thinks the text is,",
+          "and keeps the raw frames",
+          "so nobody has to trust a",
+          "summary table without the",
+          "data behind it."
+        ]
+      },
+      "canvas": {
+        "height": 288,
+        "lineCount": 12,
+        "lines": [
+          "A measurement is only",
+          "useful when someone else",
+          "can repeat it and land close",
+          "to the same number. This",
+          "page lays out one",
+          "paragraph three different",
+          "ways, records how tall",
+          "each one thinks the text is,",
+          "and keeps the raw frames",
+          "so nobody has to trust a",
+          "summary table without the",
+          "data behind it."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 288,
+        "lineCount": 12,
+        "lines": [
+          "A measurement is only",
+          "useful when someone else",
+          "can repeat it and land close",
+          "to the same number. This",
+          "page lays out one",
+          "paragraph three different",
+          "ways, records how tall",
+          "each one thinks the text is,",
+          "and keeps the raw frames",
+          "so nobody has to trust a",
+          "summary table without the",
+          "data behind it."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "en-long",
+      "width": 200,
+      "mode": "keep-all",
+      "dom": {
+        "height": 288,
+        "lineCount": 12,
+        "lines": [
+          "A measurement is only",
+          "useful when someone else",
+          "can repeat it and land close",
+          "to the same number. This",
+          "page lays out one",
+          "paragraph three different",
+          "ways, records how tall",
+          "each one thinks the text is,",
+          "and keeps the raw frames",
+          "so nobody has to trust a",
+          "summary table without the",
+          "data behind it."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 288,
+        "lineCount": 12,
+        "lines": [
+          "A measurement is only",
+          "useful when someone else",
+          "can repeat it and land close",
+          "to the same number. This",
+          "page lays out one",
+          "paragraph three different",
+          "ways, records how tall",
+          "each one thinks the text is,",
+          "and keeps the raw frames",
+          "so nobody has to trust a",
+          "summary table without the",
+          "data behind it."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "en-long",
+      "width": 320,
+      "mode": "normal",
+      "dom": {
+        "height": 192,
+        "lineCount": 8,
+        "lines": [
+          "A measurement is only useful when",
+          "someone else can repeat it and land close",
+          "to the same number. This page lays out one",
+          "paragraph three different ways, records",
+          "how tall each one thinks the text is, and",
+          "keeps the raw frames so nobody has to",
+          "trust a summary table without the data",
+          "behind it."
+        ]
+      },
+      "canvas": {
+        "height": 192,
+        "lineCount": 8,
+        "lines": [
+          "A measurement is only useful when",
+          "someone else can repeat it and land close",
+          "to the same number. This page lays out one",
+          "paragraph three different ways, records",
+          "how tall each one thinks the text is, and",
+          "keeps the raw frames so nobody has to",
+          "trust a summary table without the data",
+          "behind it."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 192,
+        "lineCount": 8,
+        "lines": [
+          "A measurement is only useful when",
+          "someone else can repeat it and land close",
+          "to the same number. This page lays out one",
+          "paragraph three different ways, records",
+          "how tall each one thinks the text is, and",
+          "keeps the raw frames so nobody has to",
+          "trust a summary table without the data",
+          "behind it."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "en-long",
+      "width": 320,
+      "mode": "keep-all",
+      "dom": {
+        "height": 192,
+        "lineCount": 8,
+        "lines": [
+          "A measurement is only useful when",
+          "someone else can repeat it and land close",
+          "to the same number. This page lays out one",
+          "paragraph three different ways, records",
+          "how tall each one thinks the text is, and",
+          "keeps the raw frames so nobody has to",
+          "trust a summary table without the data",
+          "behind it."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 192,
+        "lineCount": 8,
+        "lines": [
+          "A measurement is only useful when",
+          "someone else can repeat it and land close",
+          "to the same number. This page lays out one",
+          "paragraph three different ways, records",
+          "how tall each one thinks the text is, and",
+          "keeps the raw frames so nobody has to",
+          "trust a summary table without the data",
+          "behind it."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "en-long",
+      "width": 480,
+      "mode": "normal",
+      "dom": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "A measurement is only useful when someone else can repeat it",
+          "and land close to the same number. This page lays out one",
+          "paragraph three different ways, records how tall each one thinks",
+          "the text is, and keeps the raw frames so nobody has to trust a",
+          "summary table without the data behind it."
+        ]
+      },
+      "canvas": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "A measurement is only useful when someone else can repeat it",
+          "and land close to the same number. This page lays out one",
+          "paragraph three different ways, records how tall each one thinks",
+          "the text is, and keeps the raw frames so nobody has to trust a",
+          "summary table without the data behind it."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "A measurement is only useful when someone else can repeat it",
+          "and land close to the same number. This page lays out one",
+          "paragraph three different ways, records how tall each one thinks",
+          "the text is, and keeps the raw frames so nobody has to trust a",
+          "summary table without the data behind it."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "en-long",
+      "width": 480,
+      "mode": "keep-all",
+      "dom": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "A measurement is only useful when someone else can repeat it",
+          "and land close to the same number. This page lays out one",
+          "paragraph three different ways, records how tall each one thinks",
+          "the text is, and keeps the raw frames so nobody has to trust a",
+          "summary table without the data behind it."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "A measurement is only useful when someone else can repeat it",
+          "and land close to the same number. This page lays out one",
+          "paragraph three different ways, records how tall each one thinks",
+          "the text is, and keeps the raw frames so nobody has to trust a",
+          "summary table without the data behind it."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "mixed",
+      "width": 200,
+      "mode": "normal",
+      "dom": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는",
+          "평균 0.35ms 안에 끝나고, API",
+          "응답 1건당 payload는 12KB를",
+          "넘지 않는다. 2026년 3분기 릴",
+          "리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ]
+      },
+      "canvas": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는",
+          "평균 0.35ms 안에 끝나고, API",
+          "응답 1건당 payload는 12KB를",
+          "넘지 않는다. 2026년 3분기 릴",
+          "리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는",
+          "평균 0.35ms 안에 끝나고, API",
+          "응답 1건당 payload는 12KB를",
+          "넘지 않는다. 2026년 3분기 릴",
+          "리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "mixed",
+      "width": 200,
+      "mode": "keep-all",
+      "dom": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는",
+          "평균 0.35ms 안에 끝나고, API",
+          "응답 1건당 payload는 12KB를",
+          "넘지 않는다. 2026년 3분기",
+          "릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는",
+          "평균 0.35ms 안에 끝나고, API",
+          "응답 1건당 payload는 12KB를",
+          "넘지 않는다. 2026년 3분기",
+          "릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "mixed",
+      "width": 320,
+      "mode": "normal",
+      "dom": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는 평균 0.35ms 안에",
+          "끝나고, API 응답 1건당 payload는 12KB를 넘지",
+          "않는다. 2026년 3분기 릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ]
+      },
+      "canvas": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는 평균 0.35ms 안에",
+          "끝나고, API 응답 1건당 payload는 12KB를 넘지",
+          "않는다. 2026년 3분기 릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는 평균 0.35ms 안에",
+          "끝나고, API 응답 1건당 payload는 12KB를 넘지",
+          "않는다. 2026년 3분기 릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "mixed",
+      "width": 320,
+      "mode": "keep-all",
+      "dom": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는 평균 0.35ms 안에",
+          "끝나고, API 응답 1건당 payload는 12KB를 넘지",
+          "않는다. 2026년 3분기 릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는 평균 0.35ms 안에",
+          "끝나고, API 응답 1건당 payload는 12KB를 넘지",
+          "않는다. 2026년 3분기 릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "mixed",
+      "width": 480,
+      "mode": "normal",
+      "dom": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는 평균 0.35ms 안에 끝나고, API 응답 1건당",
+          "payload는 12KB를 넘지 않는다. 2026년 3분기 릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ]
+      },
+      "canvas": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는 평균 0.35ms 안에 끝나고, API 응답 1건당",
+          "payload는 12KB를 넘지 않는다. 2026년 3분기 릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는 평균 0.35ms 안에 끝나고, API 응답 1건당",
+          "payload는 12KB를 넘지 않는다. 2026년 3분기 릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "mixed",
+      "width": 480,
+      "mode": "keep-all",
+      "dom": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는 평균 0.35ms 안에 끝나고, API 응답 1건당",
+          "payload는 12KB를 넘지 않는다. 2026년 3분기 릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "버전 2.14.0부터 layout 함수는 평균 0.35ms 안에 끝나고, API 응답 1건당",
+          "payload는 12KB를 넘지 않는다. 2026년 3분기 릴리스 노트(v3-beta)에는",
+          "breaking change가 4건 있다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "emoji",
+      "width": 200,
+      "mode": "normal",
+      "dom": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻",
+          "가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고 직업 🧑‍🚀👩🏾‍💻",
+          "이모지가 문장 사이에 섞여 있을",
+          "때 🎉🎉🎉🎉🎉🎉🎉🎉",
+          "🎉🎉🎉🎉 줄이 어디서 끊기",
+          "는지 본다"
+        ]
+      },
+      "canvas": {
+        "height": 168,
+        "lineCount": 7,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻",
+          "가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고 직업 🧑‍🚀👩🏾‍💻",
+          "이모지가 문장 사이에 섞여 있을",
+          "때",
+          "🎉🎉🎉🎉🎉🎉🎉🎉🎉",
+          "🎉🎉🎉 줄이 어디서 끊기는",
+          "지 본다"
+        ],
+        "heightDiff": 24,
+        "lineDiff": 1,
+        "firstDiffLine": 4
+      },
+      "pretext": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻",
+          "가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고 직업 🧑‍🚀👩🏾‍💻",
+          "이모지가 문장 사이에 섞여 있을",
+          "때 🎉🎉🎉🎉🎉🎉🎉🎉",
+          "🎉🎉🎉🎉 줄이 어디서 끊기",
+          "는지 본다"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "emoji",
+      "width": 200,
+      "mode": "keep-all",
+      "dom": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻",
+          "가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고 직업 🧑‍🚀👩🏾‍💻",
+          "이모지가 문장 사이에 섞여 있을",
+          "때 🎉🎉🎉🎉🎉🎉🎉🎉",
+          "🎉🎉🎉🎉 줄이 어디서",
+          "끊기는지 본다"
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻",
+          "가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고 직업 🧑‍🚀👩🏾‍💻",
+          "이모지가 문장 사이에 섞여 있을",
+          "때 🎉🎉🎉🎉🎉🎉🎉🎉",
+          "🎉🎉🎉🎉 줄이 어디서",
+          "끊기는지 본다"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "emoji",
+      "width": 320,
+      "mode": "normal",
+      "dom": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻 가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고",
+          "직업 🧑‍🚀👩🏾‍💻 이모지가 문장 사이에 섞여 있을 때 🎉",
+          "🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 줄이 어디서",
+          "끊기는지 본다"
+        ]
+      },
+      "canvas": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻 가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고",
+          "직업 🧑‍🚀👩🏾‍💻 이모지가 문장 사이에 섞여 있을 때",
+          "🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 줄이 어",
+          "디서 끊기는지 본다"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": 2
+      },
+      "pretext": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻 가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고",
+          "직업 🧑‍🚀👩🏾‍💻 이모지가 문장 사이에 섞여 있을 때 🎉",
+          "🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 줄이 어디서",
+          "끊기는지 본다"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "emoji",
+      "width": 320,
+      "mode": "keep-all",
+      "dom": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻 가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고",
+          "직업 🧑‍🚀👩🏾‍💻 이모지가 문장 사이에 섞여 있을 때 🎉",
+          "🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 줄이 어디서",
+          "끊기는지 본다"
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻 가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고",
+          "직업 🧑‍🚀👩🏾‍💻 이모지가 문장 사이에 섞여 있을 때 🎉",
+          "🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 줄이 어디서",
+          "끊기는지 본다"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "emoji",
+      "width": 480,
+      "mode": "normal",
+      "dom": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻 가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고 직업 🧑‍🚀👩🏾‍💻 이모지가 문",
+          "장 사이에 섞여 있을 때 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 줄이 어디",
+          "서 끊기는지 본다"
+        ]
+      },
+      "canvas": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻 가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고 직업 🧑‍🚀👩🏾‍💻 이모지가 문",
+          "장 사이에 섞여 있을 때 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 줄이 어디",
+          "서 끊기는지 본다"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻 가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고 직업 🧑‍🚀👩🏾‍💻 이모지가 문",
+          "장 사이에 섞여 있을 때 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 줄이 어디",
+          "서 끊기는지 본다"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "emoji",
+      "width": 480,
+      "mode": "keep-all",
+      "dom": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻 가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고 직업 🧑‍🚀👩🏾‍💻 이모지가",
+          "문장 사이에 섞여 있을 때 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 줄이",
+          "어디서 끊기는지 본다"
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "국기 🇰🇷🇺🇸🇯🇵 피부색 👍🏽👋🏿✌🏻 가족 👨‍👩‍👧‍👦👩‍👩‍👦 그리고 직업 🧑‍🚀👩🏾‍💻 이모지가",
+          "문장 사이에 섞여 있을 때 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉 줄이",
+          "어디서 끊기는지 본다"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "long-url",
+      "width": 200,
+      "mode": "normal",
+      "dom": {
+        "height": 192,
+        "lineCount": 8,
+        "lines": [
+          "https://example.com/work",
+          "space/text-measure-",
+          "bench/results/resize-",
+          "pretext-200-5.json?",
+          "download=true&format=ra",
+          "w&token=abcdefghijklmno",
+          "pqrstuvwxyz0123456789A",
+          "BCDEFGHIJ#frame-29"
+        ]
+      },
+      "canvas": {
+        "height": 192,
+        "lineCount": 8,
+        "lines": [
+          "https://example.com/work",
+          "space/text-measure-bench",
+          "/results/resize-pretext-200",
+          "-5.json?download=true&for",
+          "mat=raw&token=abcdefghi",
+          "jklmnopqrstuvwxyz012345",
+          "6789ABCDEFGHIJ#frame-",
+          "29"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": 2
+      },
+      "pretext": {
+        "height": 192,
+        "lineCount": 8,
+        "lines": [
+          "https://example.com/work",
+          "space/text-measure-",
+          "bench/results/resize-",
+          "pretext-200-5.json?",
+          "download=true&format=ra",
+          "w&token=abcdefghijklmno",
+          "pqrstuvwxyz0123456789A",
+          "BCDEFGHIJ#frame-29"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "long-url",
+      "width": 200,
+      "mode": "keep-all",
+      "dom": {
+        "height": 192,
+        "lineCount": 8,
+        "lines": [
+          "https://example.com/work",
+          "space/text-measure-",
+          "bench/results/resize-",
+          "pretext-200-5.json?",
+          "download=true&format=ra",
+          "w&token=abcdefghijklmno",
+          "pqrstuvwxyz0123456789A",
+          "BCDEFGHIJ#frame-29"
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 192,
+        "lineCount": 8,
+        "lines": [
+          "https://example.com/work",
+          "space/text-measure-",
+          "bench/results/resize-",
+          "pretext-200-5.json?",
+          "download=true&format=ra",
+          "w&token=abcdefghijklmno",
+          "pqrstuvwxyz0123456789A",
+          "BCDEFGHIJ#frame-29"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "long-url",
+      "width": 320,
+      "mode": "normal",
+      "dom": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "https://example.com/workspace/text-",
+          "measure-bench/results/resize-pretext-",
+          "200-5.json?",
+          "download=true&format=raw&token=abcdef",
+          "ghijklmnopqrstuvwxyz0123456789ABCDE",
+          "FGHIJ#frame-29"
+        ]
+      },
+      "canvas": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "https://example.com/workspace/text-meas",
+          "ure-bench/results/resize-pretext-200-5.jso",
+          "n?download=true&format=raw&token=abc",
+          "defghijklmnopqrstuvwxyz0123456789ABC",
+          "DEFGHIJ#frame-29"
+        ],
+        "heightDiff": -24,
+        "lineDiff": -1,
+        "firstDiffLine": 1
+      },
+      "pretext": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "https://example.com/workspace/text-",
+          "measure-bench/results/resize-pretext-",
+          "200-5.json?",
+          "download=true&format=raw&token=abcdef",
+          "ghijklmnopqrstuvwxyz0123456789ABCDE",
+          "FGHIJ#frame-29"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "long-url",
+      "width": 320,
+      "mode": "keep-all",
+      "dom": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "https://example.com/workspace/text-",
+          "measure-bench/results/resize-pretext-",
+          "200-5.json?",
+          "download=true&format=raw&token=abcdef",
+          "ghijklmnopqrstuvwxyz0123456789ABCDE",
+          "FGHIJ#frame-29"
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 144,
+        "lineCount": 6,
+        "lines": [
+          "https://example.com/workspace/text-",
+          "measure-bench/results/resize-pretext-",
+          "200-5.json?",
+          "download=true&format=raw&token=abcdef",
+          "ghijklmnopqrstuvwxyz0123456789ABCDE",
+          "FGHIJ#frame-29"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "long-url",
+      "width": 480,
+      "mode": "normal",
+      "dom": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "https://example.com/workspace/text-measure-",
+          "bench/results/resize-pretext-200-5.json?",
+          "download=true&format=raw&token=abcdefghijklmnopqrstuvwxy",
+          "z0123456789ABCDEFGHIJ#frame-29"
+        ]
+      },
+      "canvas": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "https://example.com/workspace/text-measure-bench/results/resi",
+          "ze-pretext-200-5.json?download=true&format=raw&token=abcd",
+          "efghijklmnopqrstuvwxyz0123456789ABCDEFGHIJ#frame-29"
+        ],
+        "heightDiff": -24,
+        "lineDiff": -1,
+        "firstDiffLine": 1
+      },
+      "pretext": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "https://example.com/workspace/text-measure-",
+          "bench/results/resize-pretext-200-5.json?",
+          "download=true&format=raw&token=abcdefghijklmnopqrstuvwxy",
+          "z0123456789ABCDEFGHIJ#frame-29"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "long-url",
+      "width": 480,
+      "mode": "keep-all",
+      "dom": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "https://example.com/workspace/text-measure-",
+          "bench/results/resize-pretext-200-5.json?",
+          "download=true&format=raw&token=abcdefghijklmnopqrstuvwxy",
+          "z0123456789ABCDEFGHIJ#frame-29"
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "https://example.com/workspace/text-measure-",
+          "bench/results/resize-pretext-200-5.json?",
+          "download=true&format=raw&token=abcdefghijklmnopqrstuvwxy",
+          "z0123456789ABCDEFGHIJ#frame-29"
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "punct",
+      "width": 200,
+      "mode": "normal",
+      "dom": {
+        "height": 168,
+        "lineCount": 7,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝",
+          "났어?” 「네、끝났습니다。」 가",
+          "격은 ₩12,000(부가세 포함)이",
+          "고, 해외 결제는 $1,299.00…",
+          "또는 €1.150,50! 정말?! 그렇다",
+          "면—좋다; 계속하자: [1], {2},",
+          "<3>."
+        ]
+      },
+      "canvas": {
+        "height": 168,
+        "lineCount": 7,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝",
+          "났어?” 「네、끝났습니다。」 가",
+          "격은 ₩12,000(부가세 포함)이",
+          "고, 해외 결제는 $1,299.00…",
+          "또는 €1.150,50! 정말?! 그렇다",
+          "면—좋다; 계속하자: [1], {2},",
+          "<3>."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 168,
+        "lineCount": 7,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝",
+          "났어?” 「네、끝났습니다。」 가",
+          "격은 ₩12,000(부가세 포함)이",
+          "고, 해외 결제는 $1,299.00…",
+          "또는 €1.150,50! 정말?! 그렇다",
+          "면—좋다; 계속하자: [1], {2},",
+          "<3>."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "punct",
+      "width": 200,
+      "mode": "keep-all",
+      "dom": {
+        "height": 168,
+        "lineCount": 7,
+        "lines": [
+          "그는 말했다. “정말(진짜로)",
+          "끝났어?” 「네、끝났습니다。」",
+          "가격은 ₩12,000(부가세 포함)",
+          "이고, 해외 결제는 $1,299.00…",
+          "또는 €1.150,50! 정말?!",
+          "그렇다면—좋다; 계속하자: [1],",
+          "{2}, <3>."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 168,
+        "lineCount": 7,
+        "lines": [
+          "그는 말했다. “정말(진짜로)",
+          "끝났어?” 「네、끝났습니다。」",
+          "가격은 ₩12,000(부가세 포함)",
+          "이고, 해외 결제는 $1,299.00…",
+          "또는 €1.150,50! 정말?!",
+          "그렇다면—좋다; 계속하자: [1],",
+          "{2}, <3>."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "punct",
+      "width": 320,
+      "mode": "normal",
+      "dom": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝났어?” 「네、끝났습",
+          "니다。」 가격은 ₩12,000(부가세 포함)이고, 해외",
+          "결제는 $1,299.00… 또는 €1.150,50! 정말?! 그렇",
+          "다면—좋다; 계속하자: [1], {2}, <3>."
+        ]
+      },
+      "canvas": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝났어?” 「네、끝났습",
+          "니다。」 가격은 ₩12,000(부가세 포함)이고, 해외",
+          "결제는 $1,299.00… 또는 €1.150,50! 정말?! 그렇",
+          "다면—좋다; 계속하자: [1], {2}, <3>."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝났어?” 「네、끝났습",
+          "니다。」 가격은 ₩12,000(부가세 포함)이고, 해외",
+          "결제는 $1,299.00… 또는 €1.150,50! 정말?! 그렇",
+          "다면—좋다; 계속하자: [1], {2}, <3>."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "punct",
+      "width": 320,
+      "mode": "keep-all",
+      "dom": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝났어?” 「네、",
+          "끝났습니다。」 가격은 ₩12,000(부가세 포함)",
+          "이고, 해외 결제는 $1,299.00… 또는 €1.150,50!",
+          "정말?! 그렇다면—좋다; 계속하자: [1], {2}, <3>."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 96,
+        "lineCount": 4,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝났어?” 「네、",
+          "끝났습니다。」 가격은 ₩12,000(부가세 포함)",
+          "이고, 해외 결제는 $1,299.00… 또는 €1.150,50!",
+          "정말?! 그렇다면—좋다; 계속하자: [1], {2}, <3>."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "punct",
+      "width": 480,
+      "mode": "normal",
+      "dom": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝났어?” 「네、끝났습니다。」 가격은",
+          "₩12,000(부가세 포함)이고, 해외 결제는 $1,299.00… 또는 €1.150,50! 정",
+          "말?! 그렇다면—좋다; 계속하자: [1], {2}, <3>."
+        ]
+      },
+      "canvas": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝났어?” 「네、끝났습니다。」 가격은 ₩12,000(",
+          "부가세 포함)이고, 해외 결제는 $1,299.00… 또는 €1.150,50! 정말?! 그렇다",
+          "면—좋다; 계속하자: [1], {2}, <3>."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": 1
+      },
+      "pretext": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝났어?” 「네、끝났습니다。」 가격은",
+          "₩12,000(부가세 포함)이고, 해외 결제는 $1,299.00… 또는 €1.150,50! 정",
+          "말?! 그렇다면—좋다; 계속하자: [1], {2}, <3>."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "punct",
+      "width": 480,
+      "mode": "keep-all",
+      "dom": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝났어?” 「네、끝났습니다。」 가격은",
+          "₩12,000(부가세 포함)이고, 해외 결제는 $1,299.00… 또는 €1.150,50!",
+          "정말?! 그렇다면—좋다; 계속하자: [1], {2}, <3>."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "그는 말했다. “정말(진짜로) 끝났어?” 「네、끝났습니다。」 가격은",
+          "₩12,000(부가세 포함)이고, 해외 결제는 $1,299.00… 또는 €1.150,50!",
+          "정말?! 그렇다면—좋다; 계속하자: [1], {2}, <3>."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "fallback",
+      "width": 200,
+      "mode": "normal",
+      "dom": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서",
+          "特殊 기호 ⌘ ⏎ ∮ ℵ ☃ ⚙ ♞",
+          "가 나오면 폴백 폰트로 그려진다.",
+          "測定값이 달라지는지 確認한",
+          "다."
+        ]
+      },
+      "canvas": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서",
+          "特殊 기호 ⌘ ⏎ ∮ ℵ ☃ ⚙ ♞",
+          "가 나오면 폴백 폰트로 그려진다.",
+          "測定값이 달라지는지 確認한다",
+          "."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": 4
+      },
+      "pretext": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서",
+          "特殊 기호 ⌘ ⏎ ∮ ℵ ☃ ⚙ ♞",
+          "가 나오면 폴백 폰트로 그려진다.",
+          "測定값이 달라지는지 確認한",
+          "다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "fallback",
+      "width": 200,
+      "mode": "keep-all",
+      "dom": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서",
+          "特殊 기호 ⌘ ⏎ ∮ ℵ ☃ ⚙ ♞",
+          "가 나오면 폴백 폰트로 그려진다.",
+          "測定값이 달라지는지",
+          "確認한다."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 120,
+        "lineCount": 5,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서",
+          "特殊 기호 ⌘ ⏎ ∮ ℵ ☃ ⚙ ♞",
+          "가 나오면 폴백 폰트로 그려진다.",
+          "測定값이 달라지는지",
+          "確認한다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "fallback",
+      "width": 320,
+      "mode": "normal",
+      "dom": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서 特殊 기호 ⌘ ⏎ ∮",
+          "ℵ ☃ ⚙ ♞ 가 나오면 폴백 폰트로 그려진다. 測定",
+          "값이 달라지는지 確認한다."
+        ]
+      },
+      "canvas": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서 特殊 기호 ⌘ ⏎ ∮",
+          "ℵ ☃ ⚙ ♞ 가 나오면 폴백 폰트로 그려진다. 測定",
+          "값이 달라지는지 確認한다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서 特殊 기호 ⌘ ⏎ ∮",
+          "ℵ ☃ ⚙ ♞ 가 나오면 폴백 폰트로 그려진다. 測定",
+          "값이 달라지는지 確認한다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "fallback",
+      "width": 320,
+      "mode": "keep-all",
+      "dom": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서 特殊 기호 ⌘ ⏎ ∮",
+          "ℵ ☃ ⚙ ♞ 가 나오면 폴백 폰트로 그려진다.",
+          "測定값이 달라지는지 確認한다."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 72,
+        "lineCount": 3,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서 特殊 기호 ⌘ ⏎ ∮",
+          "ℵ ☃ ⚙ ♞ 가 나오면 폴백 폰트로 그려진다.",
+          "測定값이 달라지는지 確認한다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "fallback",
+      "width": 480,
+      "mode": "normal",
+      "dom": {
+        "height": 48,
+        "lineCount": 2,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서 特殊 기호 ⌘ ⏎ ∮ ℵ ☃ ⚙ ♞ 가 나오면 폴",
+          "백 폰트로 그려진다. 測定값이 달라지는지 確認한다."
+        ]
+      },
+      "canvas": {
+        "height": 48,
+        "lineCount": 2,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서 特殊 기호 ⌘ ⏎ ∮ ℵ ☃ ⚙ ♞ 가 나오면 폴",
+          "백 폰트로 그려진다. 測定값이 달라지는지 確認한다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      },
+      "pretext": {
+        "height": 48,
+        "lineCount": 2,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서 特殊 기호 ⌘ ⏎ ∮ ℵ ☃ ⚙ ♞ 가 나오면 폴",
+          "백 폰트로 그려진다. 測定값이 달라지는지 確認한다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    },
+    {
+      "case": "fallback",
+      "width": 480,
+      "mode": "keep-all",
+      "dom": {
+        "height": 48,
+        "lineCount": 2,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서 特殊 기호 ⌘ ⏎ ∮ ℵ ☃ ⚙ ♞ 가 나오면",
+          "폴백 폰트로 그려진다. 測定값이 달라지는지 確認한다."
+        ]
+      },
+      "canvas": null,
+      "pretext": {
+        "height": 48,
+        "lineCount": 2,
+        "lines": [
+          "漢字와 한글이 섞인 文章에서 特殊 기호 ⌘ ⏎ ∮ ℵ ☃ ⚙ ♞ 가 나오면",
+          "폴백 폰트로 그려진다. 測定값이 달라지는지 確認한다."
+        ],
+        "heightDiff": 0,
+        "lineDiff": 0,
+        "firstDiffLine": null
+      }
+    }
+  ],
+  "beforeFont": [
+    {
+      "width": 200,
+      "method": "dom",
+      "before": {
+        "height": 144,
+        "lineCount": 6
+      },
+      "afterStale": {
+        "height": 144,
+        "lineCount": 6
+      },
+      "afterFresh": {
+        "height": 144,
+        "lineCount": 6
+      }
+    },
+    {
+      "width": 200,
+      "method": "canvas",
+      "before": {
+        "height": 144,
+        "lineCount": 6
+      },
+      "afterStale": {
+        "height": 144,
+        "lineCount": 6
+      },
+      "afterFresh": {
+        "height": 144,
+        "lineCount": 6
+      }
+    },
+    {
+      "width": 200,
+      "method": "pretext",
+      "before": {
+        "height": 144,
+        "lineCount": 6
+      },
+      "afterStale": {
+        "height": 144,
+        "lineCount": 6
+      },
+      "afterFresh": {
+        "height": 144,
+        "lineCount": 6
+      }
+    },
+    {
+      "width": 320,
+      "method": "dom",
+      "before": {
+        "height": 96,
+        "lineCount": 4
+      },
+      "afterStale": {
+        "height": 72,
+        "lineCount": 3
+      },
+      "afterFresh": {
+        "height": 72,
+        "lineCount": 3
+      }
+    },
+    {
+      "width": 320,
+      "method": "canvas",
+      "before": {
+        "height": 96,
+        "lineCount": 4
+      },
+      "afterStale": {
+        "height": 72,
+        "lineCount": 3
+      },
+      "afterFresh": {
+        "height": 72,
+        "lineCount": 3
+      }
+    },
+    {
+      "width": 320,
+      "method": "pretext",
+      "before": {
+        "height": 96,
+        "lineCount": 4
+      },
+      "afterStale": {
+        "height": 96,
+        "lineCount": 4
+      },
+      "afterFresh": {
+        "height": 72,
+        "lineCount": 3
+      }
+    },
+    {
+      "width": 480,
+      "method": "dom",
+      "before": {
+        "height": 72,
+        "lineCount": 3
+      },
+      "afterStale": {
+        "height": 72,
+        "lineCount": 3
+      },
+      "afterFresh": {
+        "height": 72,
+        "lineCount": 3
+      }
+    },
+    {
+      "width": 480,
+      "method": "canvas",
+      "before": {
+        "height": 72,
+        "lineCount": 3
+      },
+      "afterStale": {
+        "height": 72,
+        "lineCount": 3
+      },
+      "afterFresh": {
+        "height": 72,
+        "lineCount": 3
+      }
+    },
+    {
+      "width": 480,
+      "method": "pretext",
+      "before": {
+        "height": 72,
+        "lineCount": 3
+      },
+      "afterStale": {
+        "height": 72,
+        "lineCount": 3
+      },
+      "afterFresh": {
+        "height": 72,
+        "lineCount": 3
+      }
+    }
+  ]
+}
