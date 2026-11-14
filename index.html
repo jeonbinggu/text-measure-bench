@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text-measure-bench</title>
+  </head>
+  <body>
+    <main>
+      <h1>text-measure-bench</h1>
+      <p class="lead">
+        같은 문단을 DOM · Canvas · pretext로 재고, pretext가 정한 줄을 HTML · SVG · Canvas에 그려 비교한다.
+      </p>
+
+      <section id="compare">
+        <h2>렌더러 비교</h2>
+        <div class="controls">
+          <label>케이스 <select id="case"></select></label>
+          <label>
+            보기
+            <select id="view">
+              <option value="split">3분할</option>
+              <option value="overlay">겹쳐 보기</option>
+            </select>
+          </label>
+          <label>
+            HTML
+            <select id="html-mode">
+              <option value="lines">lines (줄마다 div)</option>
+              <option value="native">native (브라우저 줄바꿈)</option>
+            </select>
+          </label>
+          <label><input type="checkbox" id="keep-all" /> keep-all</label>
+        </div>
+        <p id="legend" class="legend" hidden>
+          <span class="swatch" style="background: #2563eb"></span>HTML
+          <span class="swatch" style="background: #dc2626"></span>SVG
+          <span class="swatch" style="background: #16a34a"></span>Canvas
+          <span class="hint">세 색이 정확히 겹치면 어두운 한 색으로 보이고, 어긋나면 색이 번져 보인다.</span>
+        </p>
+        <div id="stage"></div>
+        <p id="readout" aria-live="polite"></p>
+        <p class="hint">
+          박스를 누르면 핸들 8개가 나온다. 좌우는 너비, 위아래는 줄 높이, 모서리는 너비와 글자 크기를 함께 바꾼다.
+          핸들에 포커스를 두고 화살표 키를 누르면 8px씩 움직인다.
+        </p>
+        <h3>SVG만 할 수 있는 표현: 원호 위의 글자</h3>
+        <div id="arc"></div>
+      </section>
+
+      <section id="bench">
+        <h2>측정</h2>
+        <div class="controls">
+          <label>방식 <select id="method"></select></label>
+          <label>N <select id="n"></select></label>
+          <button type="button" id="run-one">측정 시작</button>
+          <button type="button" id="run-all">전체 실행 (4방식 × 3N × 5회)</button>
+          <button type="button" id="run-accuracy">정확도 측정</button>
+        </div>
+        <pre id="log" aria-live="polite"></pre>
+        <div id="bench-mount"></div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

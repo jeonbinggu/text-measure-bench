@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: block;
+  src: url('/fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+
+:root {
+  color-scheme: light;
+  font: 14px/1.5 Pretendard, sans-serif;
+  color: #111;
+  background: #fff;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 16px;
+}
+h1 {
+  font-size: 20px;
+  margin: 0 0 4px;
+}
+h2 {
+  font-size: 16px;
+  margin: 28px 0 8px;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 16px;
+}
+h3 {
+  font-size: 13px;
+  margin: 20px 0 4px;
+}
+.lead,
+.hint {
+  color: #666;
+  margin: 0 0 8px;
+}
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+select,
+button {
+  font: inherit;
+}
+.legend .swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px 0 12px;
+  border-radius: 2px;
+}
+.legend .swatch:first-child {
+  margin-left: 0;
+}
+.legend .hint {
+  margin-left: 12px;
+}
+
+#stage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 16px 8px 24px;
+  align-items: flex-start;
+}
+figure {
+  margin: 0;
+}
+figcaption {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 8px;
+}
+.box {
+  position: relative;
+  outline: 1px dashed #bbb;
+  cursor: pointer;
+}
+.box:focus {
+  outline: 1px dashed #2563eb;
+}
+.content {
+  position: relative;
+}
+.layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  mix-blend-mode: multiply;
+}
+.sel-frame {
+  position: absolute;
+  inset: -1px;
+  border: 1.5px solid #2563eb;
+  pointer-events: none;
+  display: none;
+}
+.handle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  background: #fff;
+  border: 1.5px solid #2563eb;
+  border-radius: 2px;
+  transform: translate(-50%, -50%);
+  touch-action: none; /* 터치로 끌 때 페이지가 스크롤되지 않게 */
+  display: none;
+}
+.handle:focus-visible {
+  background: #2563eb;
+  outline: 2px solid #93c5fd;
+}
+.box.selected .sel-frame,
+.box.selected .handle {
+  display: block;
+}
+.handle-n { left: 50%; top: 0; cursor: ns-resize; }
+.handle-s { left: 50%; top: 100%; cursor: ns-resize; }
+.handle-e { left: 100%; top: 50%; cursor: ew-resize; }
+.handle-w { left: 0; top: 50%; cursor: ew-resize; }
+.handle-ne { left: 100%; top: 0; cursor: nesw-resize; }
+.handle-sw { left: 0; top: 100%; cursor: nesw-resize; }
+.handle-nw { left: 0; top: 0; cursor: nwse-resize; }
+.handle-se { left: 100%; top: 100%; cursor: nwse-resize; }
+
+#readout {
+  font-variant-numeric: tabular-nums;
+  margin: 0 0 4px;
+}
+#log {
+  font: 12px/1.5 ui-monospace, Consolas, monospace;
+  background: #f6f6f6;
+  padding: 8px;
+  max-height: 240px;
+  overflow: auto;
+  white-space: pre-wrap;
+  min-height: 1.5em;
+}
