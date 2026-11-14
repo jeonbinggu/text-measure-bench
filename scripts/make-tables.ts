@@ -1,6 +1,7 @@
 // results/*.json → 마크다운 표. README.md와 docs/findings.md의 표 자리(마커 사이)를 통째로 바꿔 쓴다.
 // 표를 손으로 고치지 말 것. 숫자를 바꾸려면 측정을 다시 하고 이 스크립트를 다시 돌린다.
 import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
+import { summarize } from '../src/bench/stats.ts'
 
 const METHODS = ['dom-batched', 'dom-interleaved', 'canvas', 'pretext']
 const NS = [10, 60, 200]
@@ -9,12 +10,6 @@ const START = '<!-- tables:start -->'
 const END = '<!-- tables:end -->'
 
 const read = (name: string) => JSON.parse(readFileSync(`results/${name}`, 'utf8'))
-const median = (xs: number[]): number => {
-  const s = [...xs].sort((a, b) => a - b)
-  return s.length % 2 ? s[(s.length - 1) / 2] : (s[s.length / 2 - 1] + s[s.length / 2]) / 2
-}
-/** nearest-rank p95 */
-const p95 = (xs: number[]): number => [...xs].sort((a, b) => a - b)[Math.ceil(xs.length * 0.95) - 1]
 const ms = (x: number) => x.toFixed(3)
 const signed = (x: number) => (x > 0 ? `+${x}` : String(x))
 
@@ -42,21 +37,12 @@ function resizeTable(): string {
       }
       any = true
       runs.forEach((r) => noteEnv(r.env))
-      // 5회 각각의 중앙값 중, 그 중앙값들의 중앙값에서 가장 먼 1회를 뺀다
-      const meds = runs.map((r) => median(r.frames))
-      const center = median(meds)
-      let out = 0
-      meds.forEach((m, i) => {
-        if (Math.abs(m - center) > Math.abs(meds[out] - center)) out = i
-      })
-      const kept = runs.filter((_, i) => i !== out)
-      const frames = kept.flatMap((r) => r.frames)
-      const raf = kept.flatMap((r) => r.rafDeltas)
-      const prep = kept.map((r) => r.prepareMs).filter((x) => x !== null)
-      excluded.push(`\`${method}\` N=${n}: ${runs[out].run}회차(중앙값 ${ms(meds[out])}ms)`)
+      // 제외 규칙과 통계는 화면의 표와 같은 코드(src/bench/stats.ts)를 쓴다
+      const s = summarize(runs)
+      excluded.push(`\`${method}\` N=${n}: ${s.excludedRun}회차(중앙값 ${ms(s.excludedMedian)}ms)`)
       rows.push(
-        `| \`${method}\` | ${n} | ${ms(median(frames))} | ${ms(p95(frames))} | ${ms(median(raf))} | ` +
-          `${prep.length ? ms(median(prep)) : '—'} | ${frames.length} |`,
+        `| \`${method}\` | ${n} | ${ms(s.median)} | ${ms(s.p95)} | ${ms(s.rafMedian)} | ` +
+          `${s.prepareMedian === null ? '—' : ms(s.prepareMedian)} | ${s.frameCount} |`,
       )
     }
   }

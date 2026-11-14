@@ -6,61 +6,124 @@
     <title>text-measure-bench</title>
   </head>
   <body>
-    <main>
-      <h1>text-measure-bench</h1>
-      <p class="lead">
-        같은 문단을 DOM · Canvas · pretext로 재고, pretext가 정한 줄을 HTML · SVG · Canvas에 그려 비교한다.
-      </p>
-
-      <section id="compare">
-        <h2>렌더러 비교</h2>
-        <div class="controls">
-          <label>케이스 <select id="case"></select></label>
-          <label>
-            보기
-            <select id="view">
-              <option value="split">3분할</option>
-              <option value="overlay">겹쳐 보기</option>
-            </select>
-          </label>
-          <label>
-            HTML
-            <select id="html-mode">
-              <option value="lines">lines (줄마다 div)</option>
-              <option value="native">native (브라우저 줄바꿈)</option>
-            </select>
-          </label>
-          <label><input type="checkbox" id="keep-all" /> keep-all</label>
+    <header class="top">
+      <div class="top-in">
+        <div class="brand">
+          <svg aria-hidden="true" width="34" height="34" viewBox="0 0 34 34">
+            <rect x="1" y="1" width="32" height="32" rx="7" fill="#1F2328" />
+            <path d="M8 24V10h18" fill="none" stroke="#FFFFFF" stroke-width="2" />
+            <path d="M12 10v3M16 10v5M20 10v3M24 10v5" stroke="#FFFFFF" stroke-width="1.5" />
+            <path d="M12 20h12" stroke="#7FA6FF" stroke-width="2.5" />
+          </svg>
+          <div>
+            <h1>text-measure-bench</h1>
+            <p>같은 문단을 세 방식으로 재고, 세 방식으로 그려서 어디서 달라지는지 봅니다</p>
+          </div>
         </div>
-        <p id="legend" class="legend" hidden>
-          <span class="swatch" style="background: #2563eb"></span>HTML
-          <span class="swatch" style="background: #dc2626"></span>SVG
-          <span class="swatch" style="background: #16a34a"></span>Canvas
-          <span class="hint">세 색이 정확히 겹치면 어두운 한 색으로 보이고, 어긋나면 색이 번져 보인다.</span>
-        </p>
-        <div id="stage"></div>
-        <p id="readout" aria-live="polite"></p>
-        <p class="hint">
-          박스를 누르면 핸들 8개가 나온다. 좌우는 너비, 위아래는 줄 높이, 모서리는 너비와 글자 크기를 함께 바꾼다.
-          핸들에 포커스를 두고 화살표 키를 누르면 8px씩 움직인다.
-        </p>
-        <h3>SVG만 할 수 있는 표현: 원호 위의 글자</h3>
-        <div id="arc"></div>
-      </section>
-
-      <section id="bench">
-        <h2>측정</h2>
-        <div class="controls">
-          <label>방식 <select id="method"></select></label>
-          <label>N <select id="n"></select></label>
-          <button type="button" id="run-one">측정 시작</button>
-          <button type="button" id="run-all">전체 실행 (4방식 × 3N × 5회)</button>
-          <button type="button" id="run-accuracy">정확도 측정</button>
+        <div class="top-actions">
+          <button type="button" id="download" class="btn">결과 JSON 받기</button>
+          <button type="button" id="run-all" class="btn btn-primary">
+            <svg aria-hidden="true" width="14" height="14" viewBox="0 0 14 14"><path d="M3 2l9 5-9 5z" fill="#FFFFFF" /></svg>
+            측정 시작
+          </button>
         </div>
-        <pre id="log" aria-live="polite"></pre>
-        <div id="bench-mount"></div>
-      </section>
-    </main>
+      </div>
+    </header>
+
+    <div class="page">
+      <div class="cols">
+        <aside class="side card" aria-label="비교 조건">
+          <fieldset>
+            <legend>테스트 문장</legend>
+            <div id="cases" class="case-list"></div>
+          </fieldset>
+
+          <div class="rule"></div>
+
+          <p id="view-label" class="label">보기</p>
+          <div id="view" class="seg" role="group" aria-labelledby="view-label">
+            <button type="button" data-v="split">나란히</button>
+            <button type="button" data-v="overlay">겹쳐 보기</button>
+          </div>
+
+          <p id="html-label" class="label label-gap">HTML 그리는 법</p>
+          <div id="html-mode" class="seg" role="group" aria-labelledby="html-label">
+            <button type="button" data-v="lines">줄마다 div</button>
+            <button type="button" data-v="native">브라우저에 맡김</button>
+          </div>
+
+          <div class="switch-row">
+            <span id="keepall-label" class="label">단어 단위로 끊기 (keep-all)</span>
+            <button type="button" id="keep-all" class="switch" role="switch" aria-checked="false" aria-labelledby="keepall-label">
+              <span></span>
+            </button>
+          </div>
+
+          <div class="range-row">
+            <div><label for="w-range" class="label">박스 너비</label><span id="w-value" class="muted"></span></div>
+            <input id="w-range" type="range" min="200" max="480" step="8" />
+          </div>
+          <div class="range-row">
+            <div><label for="s-range" class="label">글자 크기</label><span id="s-value" class="muted"></span></div>
+            <input id="s-range" type="range" min="12" max="28" step="2" />
+          </div>
+        </aside>
+
+        <main class="main" id="compare">
+          <div id="readout" class="chips" aria-live="polite"></div>
+          <div id="stage"></div>
+          <p class="hint">
+            박스를 누르면 핸들 8개가 나옵니다. 좌우 핸들은 너비만, 위아래 핸들은 줄 높이만, 모서리 핸들은 너비와 글자 크기를 함께
+            바꿉니다. 핸들에 포커스를 두고 화살표 키를 누르면 8px씩 움직입니다.
+          </p>
+
+          <section class="card arc" aria-labelledby="arc-title">
+            <div id="arc"></div>
+            <div class="arc-text">
+              <h2 id="arc-title">SVG로만 그릴 수 있는 것</h2>
+              <p>
+                HTML은 글자를 곡선 위에 놓을 수 없습니다. 편집 중에는 HTML로 그리고, 곡선·외곽선 같은 표현이 필요할 때 SVG로 바꾸는
+                이유가 여기 있습니다.
+              </p>
+            </div>
+          </section>
+
+          <section class="card result" id="bench" aria-labelledby="result-title">
+            <div class="result-head">
+              <h2 id="result-title">리사이즈 한 프레임 비용</h2>
+              <span class="muted small">중앙값 / p95, ms. 5회 중 가장 튀는 1회 제외</span>
+            </div>
+            <p class="sub">박스 N개의 너비를 320px에서 640px로 30프레임에 걸쳐 바꾸며 매 프레임 높이를 다시 잽니다.</p>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th scope="col">측정 방식</th>
+                    <th scope="col">박스 10개</th>
+                    <th scope="col">박스 60개</th>
+                    <th scope="col">박스 200개</th>
+                  </tr>
+                </thead>
+                <tbody id="result-body"></tbody>
+              </table>
+            </div>
+            <p class="sub sub-after">
+              위의 측정 시작을 누르면 4개 방식 × 3단계를 5회씩 실행하고, 원본은 results 폴더에 JSON으로 저장됩니다. 표의 숫자는 그
+              원본에서 계산한 값이며, 5회가 다 없는 칸은 미측정으로 둡니다.
+            </p>
+            <div class="tools">
+              <label>방식 <select id="method"></select></label>
+              <label>N <select id="n"></select></label>
+              <button type="button" id="run-one" class="btn btn-sm">이 조합만 측정</button>
+              <button type="button" id="run-accuracy" class="btn btn-sm">정확도 측정</button>
+            </div>
+            <pre id="log" aria-live="polite"></pre>
+          </section>
+        </main>
+      </div>
+      <!-- 측정용 박스가 놓이는 자리. 다른 레이아웃에 얽히지 않게 맨 아래에 따로 둔다 -->
+      <div id="bench-mount"></div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
